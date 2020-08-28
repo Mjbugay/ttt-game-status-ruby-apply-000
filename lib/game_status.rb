@@ -26,10 +26,10 @@ def won?(board)
     if ((position_1 == "X" && position_2 == "X" && position_3 == "X") || (position_1 == "O" && position_2 == "O" && position_3 == "O")) && !position_taken?(board, win_index_1)
       return win_combination
   else
-#       end
-#     return nil
-#   end
-# end  #   
+      end
+    return nil
+  end
+end  #  
       
       
   
